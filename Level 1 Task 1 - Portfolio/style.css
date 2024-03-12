@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
