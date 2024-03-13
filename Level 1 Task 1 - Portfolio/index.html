@@ -7,17 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="container">
+<div class="container">
     <header>
         <h1>My Portfolio</h1>
     </header>
-    <section class="portfolio-items">
-        <div class="item">Portfolio Item</div>
-        <div class="item">Portfolio Item 2</div>
-        <div class="item">Portfolio Item 3</div>
+    <nav>
+        <button class="nav-button">Home</button>
+        <button class="nav-button">About Me</button>
+        <button class="nav-button">Projects</button>
+        <button class="nav-button">Contact</button>
+    </nav>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2</p>
+        </div>
     </section>
-    <button onclick="showMore()">Show More</button>
-   </div> 
-   <script src="script.js"></script>
+    <section id="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</div> 
+<script src="script.js"></script>
 </body>
 </html>
