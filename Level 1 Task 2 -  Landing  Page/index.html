@@ -3,46 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="assets/logo.jpg" alt="TechNova Logo" class="logo">
+
+    <div class="container">
+        <div class="side-bar">
+            <ul>
+                <li><a href="">MACBOOK</a></li>
+                <li><a href="">AIRPODS</a></li>
+                <li><a href="">IMAC</a></li>
+                <li><a href="">IPHONE</a></li>
+            </ul>
+        </div>
+        <div class="nav-bar">
+            <div class="logo">
+                <i class="fab fa-apple"></i>
             </div>
-            <nav>
+
+            <div class="nav-items">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"> <i class="fas fa-bars bar"></i></a></li>
                 </ul>
-            </nav>
-    </header>
-    <main>
-        <seciton class="hero">
-            <h1>Welcome to TechNova</h1>
-            <p>Innovating for a brighter future</p>
-            <a href="#" class="btn">Learn More</a>
-        </seciton>
-        <section class="about">
-            <h2>About Us</h2>
-            <p>We are at the forefront of technology and innovation, dedicated to imporoving the world with our cutting-edge solutions.</p>
-        </section>
-        <section class="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 TechNova All rights reserved</p>
-    </footer>
+            </div>
+        </div>
+        <div class="content">
+           <div class="wrapper">
+            <div class="content-text">
+                <h1>SOMETHING <br> WONDERFUL</h1>
+                <span>Learn More  <i class="fas fa-arrow-right"></i></span>
+            </div>
+           </div>
+
+            <div class="content-image">
+                <img src="1.png" class="image">
+            </div>
+        </div>
+
+       <div class="footer">
+        <div class="social-media">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a></li>            
+            </ul>
+        </div>
+        <div class="icon">
+            <div data-image="1.png" onclick="fun(this)">  <i class="fas fa-circle blackIcon"></i></div>
+            <div data-image="2.png" onclick="fun(this)">  <i class="fas fa-circle redIcon"></i></div>
+            <div data-image="3.png" onclick="fun(this)">  <i class="fas fa-circle blueIcon"></i></div>
+        </div>
+       </div>
+    </div>
+ 
     
+<script src="page.js"></script>
 </body>
 </html>
