@@ -1,0 +1,48 @@
+body, h1, h2, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #005a9c;
+    color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo-container img.logo {
+    height: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul li a {
+    color:#E0E0E0;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #E0E0E0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
